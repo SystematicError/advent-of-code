@@ -18,7 +18,7 @@ fn main() {
         let start = start.parse::<u64>().unwrap();
         let end = end.parse::<u64>().unwrap();
 
-        for n in start..(end + 1) {
+        for n in start..=end {
             if is_invalid(n) {
                 sum += n;
             }
