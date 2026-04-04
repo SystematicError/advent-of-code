@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+geo = "0.32.0"
+itertools = "0.14.0"
 memoize = "0.6.0"
 petgraph = "0.8.3"
+rayon = "1.11.0"
 scc_tarjan = "0.1.0"
