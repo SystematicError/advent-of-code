@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 memoize = "0.6.0"
+petgraph = "0.8.3"
+scc_tarjan = "0.1.0"
